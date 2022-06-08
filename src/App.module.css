@@ -1,0 +1,22 @@
+:root {
+  --space-s: 8px;
+  --space-m: 12px;
+  --space-l: 24px;
+  --w-full: 100%;
+  --w-container: 600px;
+  --color-bg-code: rgba(238, 243, 241, 0.867);
+}
+
+.wrapper {
+  max-width: var(--w-container);
+  margin: 0 auto;
+  padding: var(--space-l);
+}
+
+.editor {
+  width: var(--w-full);
+}
+
+.preview code {
+  background-color: var(--color-bg-code);
+}
